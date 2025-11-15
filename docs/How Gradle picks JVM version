@@ -1,0 +1,19 @@
+Gradle uses the build setting in IntelliJ itself.
+IntelliJ IDEA > Settings > Build, Execution, and Deployment > Build Tools > Gradle > Gradle JVM
+
+If that is invalid, then and only then it will fall back to the JAVA_HOME environment variable.
+This environment variable can, but should not be, hard coded in the .zshrc file.
+
+Instead:
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$JAVA_HOME/bin:$PATH
+
+This will set JAVA_HOME to whatever the HIGHEST INSTALLED VERSION of the JDK is.
+
+To set to a specific version, make it like so in .zshrc:
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+Note that we use a version flag so that /usr/libexec/java_home returns the version we want.
+We do NOT hard code a path.
