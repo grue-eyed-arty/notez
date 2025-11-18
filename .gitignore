@@ -87,5 +87,6 @@ hs_err_pid*
 # Cache of project
 .gradletasknamecache
 
-#Text files
+#Text files and experimentation
 secrets.txt
+Playground.kt
