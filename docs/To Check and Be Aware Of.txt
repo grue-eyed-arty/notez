@@ -1,0 +1,2 @@
+1) MONGODB connection lost
+    Make sure to allow public IP (check phone) https://cloud.mongodb.com/v2/691c221698de3b7901d24cca#/overview?automateSecurity=true&connectCluster=SpringBootCrashCourseCluster

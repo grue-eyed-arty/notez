@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=tXC9DQRWHUQ <-- This is the video I'm following along with
+https://github.com/philipplackner/SpringBootCrashCourse/tree/master <- the git repo
