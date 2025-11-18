@@ -1,2 +1,3 @@
 https://www.youtube.com/watch?v=tXC9DQRWHUQ <-- This is the video I'm following along with
 https://github.com/philipplackner/SpringBootCrashCourse/tree/master <- the git repo
+https://tom-collings.medium.com/controller-service-repository-16e29a4684e5 <- Service, Controller, Repository explanation

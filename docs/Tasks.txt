@@ -1,2 +1,2 @@
 ABM-1 Create spring project
-ABM-2 Create data model
+ABM-2 Create data model, repository, etc
